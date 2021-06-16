@@ -1,14 +1,18 @@
+h3, h4, h5, h6 {
+    color:aqua;
+}
+
 h1 {
-    color:rgb(55, 172, 113);
+    color:rgb(161, 226, 194);
     
 }
 
 h2 {
-    color: #46484c;
+    color: #c9316b;
 }
 
 p {
-    color: #8b8b8c;
+    color: #8763c9;
 }
 
 button {
@@ -17,6 +21,6 @@ button {
 }
 
 body {
-    background-color: #fffbf7;
-    
+    background-color: #4599c0;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1016391685/thumb/1.jpg?ip=x480");
 }
