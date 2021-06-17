@@ -24,3 +24,7 @@ body {
     background-color: #4599c0;
     background-image: url("https://ak.picdn.net/shutterstock/videos/1016391685/thumb/1.jpg?ip=x480");
 }
+
+* {
+    color: white;
+}
