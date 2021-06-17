@@ -28,3 +28,37 @@ body {
 * {
     color: white;
 }
+
+li {
+    display: inline;
+}
+
+.header {
+    margin: 40px 20px 0px 20px;
+    font-size: 0;
+    line-height: 45px;
+  }
+  
+  /*Aplica a todos los hijos*/
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+}
+
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
