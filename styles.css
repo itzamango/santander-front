@@ -1,28 +1,23 @@
 h3, h4, h5, h6 {
     color:aqua;
 }
-
 h1 {
-    color:rgb(161, 226, 194);
-    
+    color:rgb(161, 226, 194);    
 }
-
 h2 {
     color: #c9316b;
 }
-
 p {
     color: #8763c9;
 }
-
 button {
     color: #fff;
     background-color: #025157;
 }
 
 body {
-    background-color: #f9fc6a;
-    background-image: url("https://ak.picdn.net/shutterstock/videos/1016391685/thumb/1.jpg?ip=x480");
+    background-color: #4599c0;
+    /* background-image: url("https://ak.picdn.net/shutterstock/videos/1016391685/thumb/1.jpg?ip=x480"); */
 }
 
 * {
