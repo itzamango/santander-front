@@ -1,5 +1,5 @@
-h3, h4, h5, h6 {
-    color:aqua;
+h2, h3, h4, h5, h6 {
+    color:#025157;
 }
 
 h1 {
@@ -8,9 +8,6 @@ h1 {
     
 }
 
-h2 {
-    color: #c9316b;
-}
 
 p {
     color: #8763c9;
@@ -576,28 +573,57 @@ li {
   main {
     margin-top: 130px;
   }
+
+  .banner > img {
+    width: 100%;
+  }
+
   h1 {
     font-size: 30px;
   }
-}
 
-
-
-
-
-@media (max-width: 575px) {
   .publish > form {
     flex-direction: column;
   }
 
-  .publish > form > div {
-    height: 50px;
-    margin-top: 10px;
+  .publish > form  > input {
+    width: 90%;
+  }
+  
+  .publish > form > button {
+    width: 92%;
   }
 
-  .publish > form > div > input {
-    width: 65%;
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
   }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+
+  .promo > .publish > h3 {
+    font-family: "Brush Script MT", serif;
+
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+   /* .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  } */
 }
 
 
