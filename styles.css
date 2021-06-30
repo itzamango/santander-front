@@ -4,6 +4,7 @@ h3, h4, h5, h6 {
 
 h1 {
     color:rgb(161, 226, 194);
+    font-size: 70px;
     
 }
 
@@ -548,15 +549,16 @@ li {
   color: #025157;
   font-weight: 400;
   text-align: center;
+}
 
-.how-does-it-work .steps .card-step .card-step-body p {
+ .how-does-it-work .steps .card-step .card-step-body p {
   font-size: 15px;
   line-height: 1.5;
   color: #46484c;
   font-weight: 400;
   height: 85px;
   margin-bottom: 16px;
-}
+} 
 
 .how-does-it-work .steps .card-step .card-step-body a {
   font-size: 16px;
@@ -564,9 +566,37 @@ li {
   color: #67b54b;
   font-weight: 600;
   text-decoration: none;
+} 
+
+
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
 }
 
 
+
+
+
+@media (max-width: 575px) {
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+}
 
 
 
