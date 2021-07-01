@@ -629,9 +629,15 @@ li {
 
 
 
+  .carousel-inner {
+    max-height: 100%;
+    max-width: 400px;
+    justify-content: center;
+  }
 
-
-
+.carousel-item active{
+  justify-content: center;
+}
 
 
    /* .publish > form > div {
