@@ -2,6 +2,7 @@
 <html lang="en">
 <!-- https://bedu-fef.netlify.app/ -->
 <!-- https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+<!-- https://fonts.google.com/ -->
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +21,7 @@
 
 
     <!-- Nuestra barra de navegación comentada va aquí -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
         </a>
@@ -35,7 +36,7 @@
                     <a class="nav-link" href="#">Platform</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="./pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Customers</a>
@@ -80,6 +81,11 @@
         </header>
     </section>
 -->
+
+
+
+
+
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -116,9 +122,80 @@
     </div>
 
 
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100" style="width: 85%">Barra de carga</div>
+    </div>
+
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Opcion 1
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Aqui va texto para la opcion 1
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Opcion 2
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Aqui va texto para la opcion 2
 
 
 
+                    <div class="jumbotron">
+                        <h1 class="display-4">Jumbotron</h1>
+                        <p class="lead">Esto es un jumbotron</p>
+                        <hr class="my-4">
+
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Aprende más</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Opción 3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Aquí va texto para la opcion 3.
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <main>
         <h1>Soy h1</h1>
